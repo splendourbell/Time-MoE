@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timemoe"
+version = "0.1.0"
+description = "Time-MoE implementation"
+authors = [
+    {name = "Time-MoE"}
+]
+dependencies = [
+    "pyyaml",
+    "numpy",
+    "pandas",
+    "torch",
+    "scikit-learn",
+    "transformers==4.40.1",
+    "datasets==2.18.0",
+    "accelerate==0.28.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Time-MoE/Time-MoE"
