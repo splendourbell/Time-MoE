@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["timemoe"]
+packages = ["time_moe"]
 
 [project.urls]
 Homepage = "https://github.com/Time-MoE/Time-MoE"
